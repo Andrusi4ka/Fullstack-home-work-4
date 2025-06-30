@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px 30px;
+}
+
+.container {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+.container div,
+.container section {
+    position: relative;
+}
+
+img {
+    position: absolute;
+    box-shadow: 3px 3px 3px gray;
+    border-radius: 5px;
+    top: 0;
+    right: 0;
+    opacity: 0;
+    z-index: 1;
+}
+
+span {
+    color: mediumblue;
+}
+
+p {
+    padding: 20px;
+    background-color: rgb(236, 196, 93);
+}
+
+.bl1 p:hover+.img1,
+.bl2 p:hover+.img2,
+.bl3 p:hover+.img3,
+.bl4 p:hover+.img4,
+.bl5 a:hover+.img5,
+.bl6>p:hover+.img6,
+.bl7:hover .img7,
+#cont .bl8 p:hover+.img8 {
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.variant2 {
+    background-color: cornflowerblue;
+}
+
+#this {
+    background-color: darkseagreen;
+}
+
+p[data-type="variant4"] {
+    background-color: coral;
+}
+
+div a {
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    background-color: rgb(148, 131, 248);
+}
+
+.bl6 {
+    padding: 10px;
+    background-color: rgb(241, 239, 239);
+}
+
+.bl6>div>p {
+    background-color: rgb(241, 239, 239);
+}
+
+.bl6>p {
+    background-color: burlywood;
+}
+
+div p a {
+    background-color: rgb(255, 149, 220);
+}
+
+.bl7 p,
+.bl8 p {
+    padding: 0;
+}
+
+#cont .bl8 p a {
+    background-color: skyblue;
+}

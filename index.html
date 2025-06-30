@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home-work-4</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <div class="container" id="cont">
+        <h1>Home work 4</h1>
+        <div class="bl1">
+            <p>Застосовується до всіх тегів <span>&lt;p&gt;</span>, вага (0,0,1)</p>
+            <img class="img1" src="image/image1.png" alt="image1">
+        </div>
+        <div class="bl2">
+            <p class="variant2">Застосовується до класу <span>class="variant2"</span>, вага (0,1,0)</p>
+            <img class="img2" src="image/image2.png" alt="image2">
+        </div>
+        <div class="bl3">
+            <p id="this">Застосовується до <span>id="this"</span>, вага (1,0,0)</p>
+            <img class="img3" src="image/image3.png" alt="image3">
+        </div>
+        <div class="bl4">
+            <p data-type="variant4">Застосовується до атрибуту <span>data-type="variant4"</span>, вага (0,1,1)</p>
+            <img class="img4" src="image/image4.png" alt="image4">
+        </div>
+        <div class="bl5">
+            <a href="#">Застосовується до всіх тегів <span>&lt;a&gt;</span>, вкладених у <span>&lt;div&gt;</span>, вага (0,0,2)</a>
+            <img class="img5" src="image/image5.png" alt="image5">
+        </div>
+        <div class="bl6">
+            <p>Застосовується тільки до дочірніх селекторів <span>&lt;p&gt;</span>, першого рівня, вага (0,1,1)</p>
+            <img class="img6" src="image/image6.png" alt="image6">
+            <div>
+                <p>Дочірній селектор другого рівня. До нього стилі не застосовуються</p>
+            </div>
+        </div>
+        <div class="bl7">
+            <p><a href="#">Застосовується до всіх тегів <span>&lt;a&gt;</span>, що відповідають певній послідовності, вага (0,0,3)</a></p>
+            <img class="img7" src="image/image7.png" alt="image7">
+        </div>
+        <div class="bl8">
+            <p><a href="#">Застосовується до <span>id="cont"</span>, класу <span>class="bl8"</span> та до дочірніх тегів <span>&lt;p&gt;</span> та <span>&lt;a&gt;</span>, вага (1,1,2)</a></p>
+            <img class="img8" src="image/image8.png" alt="image8">
+        </div>
+    </div>
+</body>
+
+</html>
